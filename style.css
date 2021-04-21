@@ -1,0 +1,73 @@
+body,
+html {
+  height: 100%;
+}
+h1 {
+  position: absolute;
+  font-size: 40px;
+  right: 100px;
+  top: 200px;
+  left: 200px;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(255, 255, 255);
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background: url("cancer1.jpg");
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.left {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  left: 550px;
+  top: 20px;
+  font-size: 60px;
+  font-family: cursive;
+  color: rgb(255, 255, 255);
+}
+.mid {
+  display: block;
+  width: 30%;
+  margin: 20px auto;
+  /* border: 2px solid green; */
+}
+.right {
+  position: absolute;
+  right: 34px;
+  top: 20px;
+  display: inline-block;
+  /* border: 2px solid yellow; */
+}
+
+.navbar p {
+  font-size: 25px;
+}
+.navbar p a {
+  color: white;
+  text-decoration: none;
+  padding: 34px 23px;
+}
+.navbar p a:hover,
+.navbar p a:active {
+  text-decoration: underline;
+  color: rgb(175, 170, 170);
+}
+#btn {
+  margin: 230px 230px;
+  font-size: 20px;
+  background-color: rgb(230, 123, 194);
+  padding: 4px 14px;
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
+}
+#btn:hover {
+  background-color: rgb(255, 255, 250);
+}
